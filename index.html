@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mason's Portfolio</title>
+    <title>Mason's Portfolio - JJBA</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="project" href="/project-1-website.html">
-    <link rel="reflection" href="reflection.html">
 </head>
 
 <body>
-    <div class="page-layout">
-        <header>
-            <div class="logo">
-                Mason's Portfolio
-            </div>
-            <nav class="links">
-                <a href="index.html">Home</a>
-                <a href="./project-1-website.html">projects</a>
-            </nav>
-        </header>
-        <main>
-            <h1>Welcome to My Portfolio</h1>
-            <div class="container">
-                <div class="item">Project 1</div>
-            </div>
-        </main>
-    </div>
+
+    <header>
+        <h1 class="title">Mason's Portfolio - JJBA</h1>
+    </header>
+
+    <img src="jojo2.png" alt="pizza mozzarella" class="main-img">
+
+    <p class="intro">
+        Welcome to my website. This site will grow as I complete more projects throughout the 2
+        years.
+        I’m learning web development step by step, and this space will track my progress, reflections, and improvements
+        as I continue to build new skills.
+    </p>
+
+    <audio id="giorno" src="giorno_theme.mp3"></audio>
+
+    <button onclick="document.getElementById('giorno').play()" class="btn">
+        ▶ Goat Button
+    </button>
+
+    <h2>Projects</h2>
+
+    <ul class="project-list">
+        <li><a href="project-1-website.html">Project 1: My First Website</a></li>
+        <li><a href="project-2-website.html">Project 2: Coming Soon</a></li>
+        <li><a href="project-3-website.html">Project 3: Coming Soon</a></li>
+        <li><a href="project-4-website.html">Project 4: Coming Soon</a></li>
+    </ul>
+
+    <footer>
+        Copyright 2026
+    </footer>
+
 </body>
 
 </html>
